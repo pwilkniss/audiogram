@@ -13,6 +13,7 @@ module.exports = function(req, res) {
       }
 
       var position = -1;
+      console.log(jobs)
 
       jobs.some(function(job, i) {
         if (job.id === req.params.id) {
@@ -21,6 +22,7 @@ module.exports = function(req, res) {
         }
       });
 
+      console.log(position)
       if (position >= 0) {
         return res.json({ status: "queued", position: position });
       }
