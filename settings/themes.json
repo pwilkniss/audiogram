@@ -16,19 +16,19 @@
     "captionRight": 1080
   },
   "AVA": {
-    "width": 1080,
-    "height": 720,
+    "width": 810,
+    "height": 540,
     "backgroundImage": "nyu_wash.jpg",
     "captionAlign": "right",
     "captionTop": 60,
-    "captionRight": 1070,
-    "captionLeft": 640,
+    "captionRight": 790,
+    "captionLeft": 400,
     "framesPerSecond": 20,
     "maxDuration": 300,
-    "samplesPerFrame": 128,
+    "samplesPerFrame": 64,
     "pattern": "wave",
-    "waveBottom": 740,
-    "waveTop": 500,
+    "waveBottom": 540,
+    "waveTop": 400,
     "waveColor": "#57068c"
   },
   "Basic": {
